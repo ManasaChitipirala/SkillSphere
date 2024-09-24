@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/011/004/883/non_2x/triangular-abstract-with-security-symbol-circuit-board-modern-future-website-background-or-cover-page-for-technology-and-finance-concept-and-education-future-company-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.bgtext {
+    animation: fadeIn 2s ease-in;
+}
+
+.navbar {
+    margin: 0;
+    padding-top: 0;
+    margin-top: 0;
+
+}
+
+.bgimage {
+    filter: blur(2px);
+    width: 100px;
+    height: 300px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.text {
+    font-family: "EB Garamond";
+    position: absolute;
+    font-size: 10px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -10%);
+    color: white;
+}
+
+body {
+    padding-top: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+
+.footer {
+    background-color: rgba(84, 178, 209, 0.676);
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-top: 0;
+}
+
+.footer-container a {
+    color: black;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-link i {
+    font-size: 20px;
+}
+
+/* Optional: Add hover effect */
+.footer-link:hover {
+    color: #1da1f2;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    text-decoration: underline;
+}
