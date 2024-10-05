@@ -1,0 +1,30 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/011/004/883/non_2x/triangular-abstract-with-security-symbol-circuit-board-modern-future-website-background-or-cover-page-for-technology-and-finance-concept-and-education-future-company-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.roadmap-card {
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.roadmap-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card {
+    background-color: #f0f8ff;
+    /* Change to your desired color */
+}
+
+.roadmap-heading {
+    color: #3498db;
+    /* Change to your desired color */
+}
