@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign Up</title>
+    <link rel="stylesheet" href="altlogstyling.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/d34b86149b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <img src="https://static.vecteezy.com/system/resources/previews/011/004/883/non_2x/triangular-abstract-with-security-symbol-circuit-board-modern-future-website-background-or-cover-page-for-technology-and-finance-concept-and-education-future-company-vector.jpg"
+        class="bg-image">
+    <div class="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Create Account</h1>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Login</h1>
+                <input type="email" Label="Email" placeholder="Email" required />
+                <input type="password" Label="Password" placeholder="Password" required />
+                <button>Login</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us, please login with your personal info</p>
+                    <button class="ghost" id="signIn">Login</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello, Friend!</h1>
+                    <p>Enter your personal details and start your journey with us</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="altlogjs.js"></script>
+</body>
+
+</html>
