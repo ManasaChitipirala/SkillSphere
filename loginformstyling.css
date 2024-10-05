@@ -1,0 +1,65 @@
+body {
+    font-family: "roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.main-container {
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    color: hsl(207, 60%, 51%);
+}
+
+.heading {
+    font-family: "roboto";
+    color: hwb(183 4% 7%);
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.bg-image {
+    position: absolute;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.input {
+    margin-bottom: 15px;
+    text-align: left;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.links {
+    margin-top: 10px;
+}
